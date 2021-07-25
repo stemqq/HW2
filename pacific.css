@@ -1,0 +1,137 @@
+header, hgroup, nav, footer, figure, figcaption, aside, section, article {
+	display: block;
+}
+body {
+	background-color: ;
+	background-image:url(ptrbackground.jpg);
+	color: #666666;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+main{
+	padding-left: 20px;
+  padding-right: 20px;
+  display: block;
+  background-color: #FFFFFF;
+  margin-left: 170px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+
+#nav ul {
+	list-style-type:none;
+	margin: 0;
+	padding-left:0;
+	font-size: 1.2em;
+}
+
+#nav a{
+	text-decoration:none;
+
+}
+
+#nav a:link{
+	color:#000033;
+
+}
+
+#nav a:visited {
+	color: #344873;
+}
+
+#nav a:hover {
+	color: #FFFFFF;
+}
+
+h1 {
+	background-color: #000033;
+  color: #FFFFFF;
+  font-family: Georgia, "Times New Roman", serif;
+  line-hight: 200%;
+ 	background-image: url(sunset.jpg);
+  background-position: right;
+  background-repeat:no-repeat;
+  padding-left: 20px;
+  height: 72px;
+  margin-bottom: 0;
+}
+
+h2 {
+	color: #3399CC;
+	font-family:Georgia, "Times New Roman", Serif;
+	text-shadow: 1px 1px 1px #ccc;
+}
+
+
+h3 {
+	font-family:Georgia, "Times New Roman", Serif;
+	color:#000000;
+}
+
+
+#contact {
+	font-size: 90%;
+}
+
+dt {
+	color: #000033;
+}
+
+
+.resort{
+	color:#000033;
+	font-weight:bold;
+	font-size: 1.2 em;
+
+}
+
+#wrapper{
+	margin-left:auto;
+	margin-right:auto;
+	width:80%;
+	background-color:#90C7E3;
+	min-width:700px;
+	max-width:1024px;
+	box-shadow:3px 3px 3px #333;
+
+}
+
+
+#content{
+	padding: 1px 20px 20px 30px;
+	background-color:#ffffff;
+	margin-left: 175px;
+
+}
+
+#content img{
+	float: left;
+	padding-right: 20px;
+	height: 230px;
+	width: 70%;
+
+}
+
+#content ul{
+	list-style-position: inside;
+}
+
+
+footer {
+	font-size: .70 em;
+  font- style: italic;
+  text-align: center;
+  padding:10px;
+  margin-left: 170px;
+  background-color: #FFFFFF;
+}
+
+
+
+text{
+	padding-left: 340px}
+space{
+margin-left:auto
+;}
