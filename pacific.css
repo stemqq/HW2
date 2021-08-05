@@ -1,0 +1,119 @@
+/*
+File: pacific.css
+GUI Assignment: style a site with external css
+Ssuna Mulindwa, UMass Lowell Computer Science, ssuna_mulindwa@student.uml.edu
+Copyright (c) 2021 by ssunaMulindwa. All rights reserved. May be freely copied or
+excerpted for educational purposes with credit to the author.
+updated by SM on July, 2021 at 9:23 AM
+*/
+
+
+
+body {
+	background-color: #00569f;
+	font-family: Arial, Helvetica, sans-serif;
+	background-image: url('ptrbackground.jpg');
+	background-repeat: repeat-x;
+}
+
+#wrapper {
+	width: 80%;
+	min-width: 600px;
+	margin: auto;
+	background-color: #99ccff;
+}
+
+#content{
+	padding: 1px 20px 20px 20px;
+	background-color: #FFFFFF;
+	margin-left: 160px;
+	padding-left: 30px;
+}
+
+#content img{
+	float: left;
+	padding-right:20px;
+	max-width:100%;
+	height:auto;
+}
+
+#content ul{
+	list-style-image:url('marker.gif');
+	list-style-position: inside;
+}
+
+#contact {
+	font-size: 90%;
+}
+
+span.resort{
+	color: #5C7FA0;
+	font-weight:bold;
+}
+
+header, hgroup, nav, footer, figure, figcaption, aside, section, article {
+	display: block;
+}
+
+
+
+nav {
+	float: left;
+	padding: 20px 5px 5px 20px;
+	font-weight: bold;
+}
+nav a{
+	text-decoration: none;
+}
+
+nav a:link{
+	color:#000033;
+}
+
+nav ul {
+	list-style-type:none;
+	margin: 0;
+	padding-left: 0;
+	font-size: 14pt;
+	font-color: #051654;
+}
+
+nav a:visited {
+	color: #344873;
+}
+
+nav a:hover {
+	color: #FFFFFF;
+}
+
+h1 {
+	margin-bottom: 0;
+	padding: 12px;
+	background-repeat:no-repeat;
+	background-color: #000033;
+	background-position: right;
+	color: #FFFFFF;
+	background-image: url('sunset.jpg');
+}
+
+h2 {
+	color: #3399CC;
+}
+
+h1,
+h2 {
+	font-family: Georgia, "Times New Roman", serif;
+}
+
+dt {
+	color: #000033;
+}
+
+footer {
+	font-family: Georgia, "Times New Roman", serif;
+	padding: 20px;
+	font-size: 80%;
+	font-style: italic;
+	margin-left: 160px;
+	background-color: #FFFFFF;
+}
